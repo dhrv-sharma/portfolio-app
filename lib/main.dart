@@ -10,7 +10,7 @@ void main() {
   // widget is a class
   runApp(MaterialApp(
     home: Home(),
-    
+
     debugShowCheckedModeBanner: false,
   ));
 }
@@ -83,6 +83,7 @@ class Home extends StatelessWidget {
                         Icons.school,
                         size: 40,
                         color: Colors.white,
+                        // commting changes for git hub
                       ),
                       SizedBox(width: 25),
                       Text(
