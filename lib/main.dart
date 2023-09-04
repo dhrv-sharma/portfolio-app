@@ -11,7 +11,7 @@ void main() {
   runApp(MaterialApp(
     home: Home(),
 
-    debugShowCheckedModeBanner: false,
+    debugShowCheckedModeBanner: false, // banner debug to remove
   ));
 }
 
